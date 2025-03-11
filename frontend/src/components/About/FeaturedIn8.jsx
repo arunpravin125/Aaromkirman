@@ -47,7 +47,7 @@ const FeaturedIn8 = () => {
         >
           <div className="h-[570px]  w-[500px] md:w-[1250px] z-20 md:ml-2 mr-2 bg-white absolute  flex flex-col justify-evenly  items-center">
             <div className="relative">
-              <div className="md:flex md:flex-row hidden items-center justify-between p-1 md:gap-16 gap-2 md:mt-4 md:ml-10 md:p-4">
+              <div className="md:flex md:flex-row hidden  items-center justify-between p-1 md:gap-16 gap-2 md:mt-4 md:ml-10 md:p-4">
                 {/* 1st */}
                 <div className="flex flex-col  relative gap-3  transition-all duration-500 items-start justify-start">
                   <div className=" flex group items-center justify-center relative md:h-[500px] md:w-[500px] h-[390px] w-[396px] ">
@@ -144,7 +144,7 @@ const FeaturedIn8 = () => {
                       className="absolute opacity-0 transition-all duration-300 group-hover:opacity-95 w-32 mx-auto"
                     />
                   </div>
-                  <div className="relative flex flex-col gap-1 text-center w-full mt-2">
+                  <div className="relative text-white md:text-black flex flex-col gap-1 text-center w-full mt-2">
                     <p className="font-tradego font-semibold">
                       Q+A: KIRMAN TALKS RUNNING A BROKERAGE
                     </p>
@@ -158,8 +158,9 @@ const FeaturedIn8 = () => {
                   </div>
                 </div>
               </div>
+              <div className="flex flex-col justify-center items-center" >
               <div className=" md:hidden z-30 top-[-170px]  h-[70px] flex justify-center items-center w-[350px] right-[60px]">
-            <div className="bg-white relative mt-3  group transition-colors duration-500 hover:bg-black  flex flex-col gap-2 h-[70px] w-[250px] ">
+            <div className="bg-white relative mt-3 group transition-colors duration-500 hover:bg-black  flex flex-col gap-2 h-[70px] w-[250px] ">
               <div className="flex items-center justify-center mt-3 group-hover:text-white  text-black p-4 gap-4">
                 <p>{">"}</p>
                 <p className="font-tradego">AARON IN THE MEDIA</p>
@@ -167,6 +168,8 @@ const FeaturedIn8 = () => {
               <hr className="border-2 absolute top-[65px] border-black transition-all duration-300 group-hover:w-56 w-14" />
             </div>
           </div>
+              </div>
+             
               {/*  */}
             </div>
           </div>
