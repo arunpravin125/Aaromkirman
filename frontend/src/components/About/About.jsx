@@ -5,7 +5,7 @@ import { fadeIn,fadeIn1 } from "../../variants";
 
 const About = () => {
   return (
-    <div className="h-[750px] overflow-hidden w-full p-5" >
+    <div className="md:h-[750px] h-auto overflow-hidden w-full p-5" >
         <div className='md:w-full  items-center md:p-8 flex md:flex-row flex-col m-5 gap-4 md:gap-24' >
         
         <div
@@ -16,7 +16,7 @@ const About = () => {
                whileInView={"show"}
                viewport={{once:true,amount:0.7}}
 
-               className="flex p-2 md:gap-10 gap-4 items-center ml-24 md:ml-0 md:items-center " >
+               className="flex p-2 md:gap-10 gap-4 items-center ml-14 md:ml-0 md:items-center " >
                    <p>02</p>
                    <hr className="border-x-2 border-slate-500 w-[70px] " ></hr>
                    <p>ABOUT</p>
@@ -26,9 +26,9 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:true,amount:0.7}}
-               className="p-2" >
-                   <h1 className="text-8xl md:text-7xl font-tradego" >AARON</h1>
-                   <h1 className="text-8xl md:text-7xl font-tradego">KIRMAN</h1>
+               className="p-2 text-center md:text-current" >
+                   <h1 className="text-7xl md:text-7xl font-tradego" >AARON</h1>
+                   <h1 className="text-7xl md:text-7xl font-tradego">KIRMAN</h1>
                </motion.div>
            </div>
         
@@ -39,19 +39,19 @@ const About = () => {
              whileInView={"show"}
              viewport={{once:true,amount:0.7}}
 
-            className='p-3 md:w-[325px] w-[480px] text-center overflow-hidden flex flex-col gap-7  md:gap-10 ' >
+            className='p-3 md:w-[325px] w-[430px] text-center overflow-hidden flex flex-col gap-7  md:gap-10 ' >
                <motion.p 
                 variants={fadeIn("up",0.3)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:true,amount:0.7}}
-               className="md:text-3xl text-3xl  font-bold font-Sigmar" >With over $19 Billion in luxury home sales,  Aaron Kirman represents the finest estates across the globe and was ranked in the top 5 luxury real estate agents in the US by the Wall Street Journal.</motion.p>
+               className="md:text-3xl  font-bold font-Sigmar text-center mx-3 md:mx-0 " >With over $19 Billion in luxury home sales,  Aaron Kirman represents the finest estates across the globe and was ranked in the top 5 luxury real estate agents in the US by the Wall Street Journal.</motion.p>
                <p
                 variants={fadeIn("up",0.3)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:true,amount:0.7}}
-               className="md:text-lg text-sm " >Aaron’s repertoire as the nation’s top agent is solidified by his investment in technology deployed in every aspect of his business process.</p>
+               className="md:text-lg text-sm mx-6 md:mx-0 " >Aaron’s repertoire as the nation’s top agent is solidified by his investment in technology deployed in every aspect of his business process.</p>
             <div className="flex mt-3 relative p-3 md:p-0 flex-col ml-32 md:ml-20 md:mt-16   group group-hover:border transition-all duration-500 hover:bg-black w-[150px] hover:border-black  hover:text-white" >
                 <div className="flex md:p-2 items-center gap-3 " >
                     <p>{">"}</p>

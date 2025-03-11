@@ -33,7 +33,7 @@ const MiddleImage1 = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 1 }}
-          className="text-slate-600 flex  items-center gap-8 absolute font-Sigmar top-9 left-28 md:left-20"
+          className="text-slate-600 flex  items-center gap-8 absolute font-Sigmar top-9 left-16 md:left-20"
         >
           <p>01</p>
           <hr className="border-t-2 border-gray-600 w-[60px]" />
@@ -45,7 +45,7 @@ const MiddleImage1 = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 1 }}
-          className="text-7xl font-tradego  absolute top-28 left-28  md:left-48 "
+          className="text-7xl font-tradego  absolute top-28 left-16  md:left-48 "
         >
           Listings
         </motion.h1>
@@ -63,7 +63,7 @@ const MiddleImage1 = () => {
         >
           <img src={image_3} className="md:bg-cover h-[330px] md:h-[510px] md:w-auto  group-hover:grayscale" />
           <div className="relative cursor-pointer  ">
-            <div className="bg-slate-100 absolute p-2 md:p-4 text-center h-[300px] w-[300px] md:h-[400px] md:w-[400px] z-30 right-5 top-[-170px] md:top-[-260px] ">
+            <div className="bg-slate-100 absolute p-2 md:p-4 text-center h-[300px] w-[300px] md:h-[400px] md:w-[400px] z-30 right-0 top-[-170px] md:top-[-260px] ">
               <div className="bg-slate-100 group-hover:border-4 transition-all duration-500 group-hover:border-black h-[280px] md:h-[370px]">
                 <div className=" flex flex-col gap-8 md:gap-12 items-center">
                   <h1 className="mt-6 text-4xl md:text-7xl font-Sigmar">AK</h1>

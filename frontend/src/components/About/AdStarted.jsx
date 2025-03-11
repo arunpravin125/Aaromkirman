@@ -32,7 +32,7 @@ const AdStarted = () => {
                     <p>LET'S GET</p>
                     </motion.div>
                     
-                    <div className='flex flex-col gap-12 md:w-[340px] ml-8 w-[400px]  md:ml-[140px]' >
+                    <div className='flex flex-col gap-12 md:w-[340px] ml-2 w-[400px]  md:ml-[140px]' >
                    
                     <motion.h2
                     variants={fadeIn("right",0.2)}
@@ -46,7 +46,7 @@ const AdStarted = () => {
                             whileInView={"show"}
                             viewport={{once:true,amount:0.4}}
                     
-                    className="text-slate-400 text-center absolute top-[250px] right-[80px] md:right-[-30px] md:top-[300px]" >Whether you’re looking to buy a home, or homes that are for sale, Aaron Kirman is the technology, and experience driven real estate agent that will get you started. Buying a house or putting your property for sale starts with Aaron Kirman.</motion.p>
+                    className="text-slate-400 text-center absolute top-[240px] right-[170px] md:right-[-30px] md:top-[300px]" >Whether you’re looking to buy a home, or homes that are for sale, Aaron Kirman is the technology, and experience driven real estate agent that will get you started. Buying a house or putting your property for sale starts with Aaron Kirman.</motion.p>
                     </div>
                    
                 </div>
@@ -55,7 +55,7 @@ const AdStarted = () => {
             </div>
            
         </div>
-        <div className="absolute md:w-[500px] flex flex-col  gap-4 top-[400px] left-[40px] md:left-[660px] md:top-10 md:right-[100px]" >
+        <div className="absolute md:w-[500px] flex flex-col gap-2 md:gap-4 top-[400px] left-[10px]  md:left-[660px] md:top-10 md:right-[100px]" >
             <motion.div
               variants={fadeIn("left",0.2)}
               initial="hidden"
@@ -63,9 +63,7 @@ const AdStarted = () => {
               viewport={{once:true,amount:0.4}}
             className="relative group transition-all duration-200 hover:bg-slate-200" >
             <motion.div 
-            
-            
-            className='md:h-[200px] h-[120px] w-[400px] group-hover:opacity-5  bg-fixed group-hover:bg-white  border-4 border-slate-300 md:w-[500px] p-3 z-30 md:right-[10px] '
+            className='md:h-[200px] h-[120px] w-[340px] group-hover:opacity-5  bg-fixed group-hover:bg-white  border-4 border-slate-300 md:w-[500px] p-3 z-30 md:right-[10px] '
                    ref={ref}
                     style={{ backgroundImage: `url(${imageBlack})`, backgroundSize: "cover", y: backgroundY}}
                   
@@ -85,7 +83,7 @@ const AdStarted = () => {
              viewport={{once:true,amount:0.6}}
             
             className="relative group hover:bg-slate-200 transition-all duration-300" >
-            <motion.div   className='md:h-[200px] w-[400px] h-[120px] group-hover:opacity-5  bg-fixed  border-4 group-hover:bg-white border-slate-300 md:w-[500px] p-3 z-30 md:right-[10px] '
+            <motion.div   className='md:h-[200px] w-[340px] h-[120px] group-hover:opacity-5  bg-fixed  border-4 group-hover:bg-white border-slate-300 md:w-[500px] p-3 z-30 md:right-[10px] '
                    ref={ref}
                     style={{ backgroundImage: `url(${imageBlack})`, backgroundSize: "cover", y: backgroundY}}
                   
@@ -104,7 +102,7 @@ const AdStarted = () => {
              whileInView={"show"}
              viewport={{once:true,amount:0.4}}
             className="relative group hover:bg-slate-200 transition-all duration-300" >
-            <motion.div   className='md:h-[200px] h-[120px] w-[400px] group-hover:bg-slate-300  group-hover:opacity-5 border-4 bg-fixed border-slate-300 md:w-[500px] p-3 z-30 right-[10px] '
+            <motion.div   className='md:h-[200px] h-[120px] w-[340px] group-hover:bg-slate-300  group-hover:opacity-5 border-4 bg-fixed border-slate-300 md:w-[500px] p-3 z-30 right-[10px] '
                     ref={ref}
                     style={{ backgroundImage: `url(${imageBlack})`, backgroundSize: "cover", y: backgroundY}}
                   

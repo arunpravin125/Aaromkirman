@@ -84,15 +84,15 @@ const App = () => {
   
   
 <MiddleImage1/> 
-{/* finished responsive */}
+{/* finished responsive 1*/}
 <About/>
-{/* finished responsive */}
+{/* finished responsive  2*/}
 <AdStarted/>
-{/* finished responsive */}
+{/* finished responsive 3*/}
 <AdSoldList/>
-{/* finished responsive */}
+{/* finished responsive 4*/}
 <EstateDynamics/>
-{/* finished responsive */}
+{/* finished responsive 5*/}
 
 <ListingImpossible/>
 {/* finished responsive */}
