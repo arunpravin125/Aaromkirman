@@ -20,10 +20,10 @@ const EstateDynamics = () => {
           </div>
         </div>
         {/* big text completed */}
-        <div className=" md:h-auto   md:w-auto h-auto justify-center items-center w-screen left-[7px] shadow-[-40px_40px_25px_#959595,-80px_80px_40px_#B5B5B5] p-6 bg-slate-200 absolute  md:left-[190px] top-[150px] md:top-[410px] " >
+        <div className=" md:h-max bg-slate-300  md:w-[800px] h-auto justify-center items-center w-screen  shadow-[-40px_40px_25px_#959595,-80px_80px_40px_#B5B5B5] p-6  absolute  md:left-[200px] top-[150px] md:top-[410px] " >
           
-          <div className="md:p-4 m-3 flex flex-col items-center gap-1 md:gap-10" >
-
+          <div className="md:p-4 m-3  flex flex-col items-center justify-center gap-1  md:gap-10" >
+ 
              <div className="text-slate-500 text-lg  md:mr-0 h-[50px] flex gap-4 items-center font-semibold" >
                 <p>05</p>
                 <hr className="border-2 border-slate-800 w-[40px]" ></hr>

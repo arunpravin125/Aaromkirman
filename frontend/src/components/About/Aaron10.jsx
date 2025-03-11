@@ -11,23 +11,23 @@ const Aaron10 = () => {
         target: ref,
         offset: ["start start", "end start"],
       });
-      const backgroundY = useTransform(scrollYProgress, [1, 2], ["0%", "100%"]);
+      const backgroundY = useTransform(scrollYProgress, [1, 2], ["0%", "200%"]);
       const textY = useTransform(scrollYProgress, [0.3, 1], ["0%", "100%"]);
 
   return (
-    <div className=" md:h-[1650px] md:w-full " >
+    <div className=" md:h-[1650px] h-max md:w-full w-screen " >
         <div>
         <motion.div
   ref={ref}
   style={{ backgroundImage: `url(${imageWhite})`, backgroundSize: "cover", y: backgroundY }}
-  className="h-[800px] md:h-[800px] bg-fixed flex items-center justify-center w-full bg-slate-200 z-20 relative px-4 md:px-0"
+  className="h-[830px] md:h-[800px] w-screen bg-fixed flex items-center justify-center  bg-slate-200 z-20 relative px-4 md:px-0"
 >
   <motion.div
     style={{ y: textY }}
     className="absolute top-[50px] md:top-0 w-full flex flex-col items-center text-center"
     transition={{ duration: 0.8, ease: "easeOut" }}
   >
-    <div className="flex flex-col gap-4 md:gap-6 mt-28 md:w-full max-w-4xl">
+    <div className="flex flex-col gap-4 md:gap-6 mt-20 md:w-full w-screen">
       <div className="flex gap-4 items-center justify-center">
         <p>10</p>
         <hr className="border-[1px] border-black w-20" />
@@ -92,8 +92,8 @@ const Aaron10 = () => {
   </motion.div>
 </motion.div>
 
-                            {/* white  */}
-                            <div className="bg-white w-full px-4 md:px-0 py-8">
+       {/* white  */}
+                   <div className="bg-white w-full px-4 md:px-0 py-8">
   <motion.div
     ref={ref}
     style={{
@@ -165,14 +165,14 @@ const Aaron10 = () => {
         </div>
 
         {/* Footer Bottom Section */}
-        <div className=" md:ml-24 w-full max-w-xl p-6 flex flex-col md:flex-row justify-between items-center mt-8 rounded-lg">
+        <div className=" w-full   flex flex-col md:flex-row justify-evenly items-center md:mt-8 rounded-lg">
           <div className="text-center md:text-left">
             <p className="text-xs text-slate-500">CUSTOM WEBSITE DESIGN BY</p>
             <p className="text-2xl md:text-3xl text-slate-300">AGENT IMAGE</p>
           </div>
-          <div className="flex items-center gap-4 mt-4 md:mt-0">
+          <div className="md:flex items-center hidden   gap-2 md:mt-0">
             <p className="text-2xl font-bold text-slate-300">MLS</p>
-            <LuHouse className="size-8 text-white" />
+            <LuHouse className="md:size-8 text-white" />
             <p className="h-5 w-5 font-bold flex items-center justify-center bg-white text-black text-2xl">R</p>
           </div>
         </div>
