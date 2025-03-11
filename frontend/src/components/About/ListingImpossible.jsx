@@ -33,7 +33,7 @@ const ListingImpossible = () => {
   ];
   
   return (
-    <div className="md:h-[1950px] overflow-hidden  md:w-auto">
+    <div className="md:h-[1950px] h-[1450px]  overflow-hidden  md:w-auto">
       <div className="flex flex-col gap-9">
         <motion.div
           style={{ backgroundImage: `url(${groupMembers})` }}

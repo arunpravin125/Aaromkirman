@@ -7,7 +7,7 @@ import AdStarted from './components/About/AdStarted';
 import AdSoldList from './components/About/AdSoldList';
 import EstateDynamics from './components/About/EstateDynamics';
 import ListingImpossible from './components/About/ListingImpossible';
-import ParallaxGrid from './components/About/ParallaxGrid';
+
 import FeaturedIn8 from './components/About/FeaturedIn8';
 import Aaron10 from './components/About/Aaron10';
 import sidebarimg from "../src/assets/footer-bg.jpg"
@@ -16,7 +16,7 @@ import sidebarimg from "../src/assets/footer-bg.jpg"
 
 const App = () => {
   const [isStricky,setIsStricky] = useState(false)
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     useEffect(() => {
       const handleScroll = () => {
         setIsStricky(window.scrollY > 200);
@@ -96,7 +96,7 @@ const App = () => {
         </div>
       </div>
       <div className="hidden md:block">
-      <div className={`flex ${isStricky == true? "fixed":"hidden"} ${isStricky == true ?"":""}  z-50 w-screen transition-all duration-300 top-[0px] flex-row justify-evenly gap-28 p-4 bg-black text-white`} >
+      <div className={`flex ${isStricky == true? "fixed":"hidden"} ${isSidebarOpen ?"hidden":"block"}  z-50 w-screen transition-all duration-300 top-[0px] flex-row justify-evenly gap-28 p-4 bg-black text-white`} >
         <div className="flex justify-between items-center w-screen" >
         <h1 className="text-5xl hidden md:flex font-serif" >AK</h1>
        

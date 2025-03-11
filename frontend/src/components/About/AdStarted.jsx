@@ -19,14 +19,14 @@ const AdStarted = () => {
          <div className="md:h-[780px] md:hidden h-[750px] bg-white w-full relative flex flex-col md:flex-row items-center md:items-start">
     {/* Left Section */}
     <div className="bg-black h-[590px] p-6 md:h-[740px] w-full md:w-[900px] relative flex items-center justify-center">
-      <div className="w-full max-w-lg md:max-w-xl lg:max-w-2xl mx-auto">
+      <div className="w-full max-w-lg md:max-w-xl flex flex-col justify-center items-center lg:max-w-2xl mx-auto">
         {/* Header */}
         <motion.div
           variants={fadeIn1("right", 0.1)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 1 }}
-          className="flex text-white items-center justify-center md:ml-0 gap-5 font-mono text-2xl"
+          className="flex text-white items-center justify-center  gap-5 font-mono text-2xl"
         >
           <p>03</p>
           <hr className="border-y-2 w-[80px] border-slate-600" />
