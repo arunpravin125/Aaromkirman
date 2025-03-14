@@ -218,7 +218,7 @@ const MiddleImage1 = () => {
         <div className="md:h-[450px] group 2xl:w-[1400px] w-full  mt-3 top-[-195px] xl:top-[410px] 2xl:top-[1110px] absolute z-30 xl:right-0 2xl:right-0">
           <img
             src={image_7}
-            className="bg-cover h-[350px] 2xl:h-[600px] w-full 2xl:w-[1400px] xl:h-[500px] xl:w-[1150px] group-hover:grayscale"
+            className="bg-cover h-[350px] 2xl:h-[600px] w-full 2xl:w-[1400px] xl:h-[500px] xl:w-[1150px] absolute right-0 group-hover:grayscale"
           />
           <motion.div
            variants={fadeIn1("up", 0.4)}
@@ -232,8 +232,8 @@ const MiddleImage1 = () => {
              initial="hidden"
              whileInView={"show"}
              viewport={{ once: true, amount: 0.7 }}
-              className="bg-slate-100 absolute p-4 text-center  2xl:h-[600px] h-[280px] xl:w-[480px] right-[60px] xl:h-[480px] 2xl:w-[600px] w-[280px] 2xl:right-[130px] xl:right-[130px] z-30 md:right-5 top-[-140px] xl:top-[-285px] 2xl:top-[-295px] ">
-              <div className="bg-slate-100 group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-black h-[250px] 2xl:h-[570px]">
+              className="bg-slate-100 absolute p-4 text-center  2xl:h-[600px] h-[280px] xl:w-[480px] right-[60px] xl:h-[480px] 2xl:w-[600px] w-[280px] 2xl:right-[130px] xl:right-[130px] z-30 md:right-5 top-[260px] xl:top-[260px] 2xl:top-[305px] ">
+              <div className="bg-slate-100 group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-black h-[250px] xl:h-[450px] 2xl:h-[570px]">
                 <div className=" flex flex-col gap-7 md:gap-12 items-center">
                   <h1 className="mt-6 2xl:text-9xl xl:text-7xl text-3xl font-tradego">AK</h1>
                   <div className="flex flex-col gap-4 2xl:gap-14 xl:gap-10">
