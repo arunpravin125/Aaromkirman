@@ -10,6 +10,8 @@ export default {
       Sigmar:["Sigmar"],
       tradego:["tradegothicbold"],
       sans: [ 'sans-serif'],
+      ivarfine:["ivarfine"],
+      proxima:["proxima_novaregular"]
     }
   },
   plugins: [daisyui],
