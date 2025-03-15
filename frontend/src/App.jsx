@@ -143,7 +143,7 @@ const App = () => {
 <MiddleImage1/> 
 {/* finished responsive 1*/}
 
-{/* <About/> */}
+<About/>
 {/* finished responsive  2*/}
 {/* <AdStarted/> */}
 {/* finished responsive 3*/}

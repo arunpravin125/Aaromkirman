@@ -5,8 +5,8 @@ import { fadeIn,fadeIn1 } from "../../variants";
 
 const About = () => {
   return (
-    <div className="md:h-[750px] h-auto overflow-hidden w-full p-5" >
-        <div className='md:w-full  items-center md:p-8 flex md:flex-row flex-col m-5 gap-4 md:gap-24' >
+    <div className="md:h-[750px] 2xl:h-[1200px] flex justify-center  h-auto overflow-hidden w-full p-5" >
+        <div className='md:w-full bg-green-200 items-center justify-center md:p-8 flex md:flex-row flex-col m-5 gap-4 md:gap-24' >
         
         <div
            className=" flex flex-col mt-4 md:mb-[330px] md:gap-5 " >
@@ -45,7 +45,7 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:true,amount:0.7}}
-               className="md:text-3xl  font-bold font-Sigmar text-center mx-3 md:mx-0 " >With over $19 Billion in luxury home sales,  Aaron Kirman represents the finest estates across the globe and was ranked in the top 5 luxury real estate agents in the US by the Wall Street Journal.</motion.p>
+               className="2xl:text-4xl  font-bold font-Sigmar text-center mx-3 md:mx-0 " >With over $19 Billion in luxury home sales,  Aaron Kirman represents the finest estates across the globe and was ranked in the top 5 luxury real estate agents in the US by the Wall Street Journal.</motion.p>
                <p
                 variants={fadeIn("up",0.3)}
                 initial="hidden"

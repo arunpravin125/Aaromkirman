@@ -56,16 +56,16 @@ const MiddleImage1 = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 1 }}
-          className=" 2xl:h-full group  h-[300px] max-w-full  mt-3  z-30 "
+          className=" 2xl:h-full group md:h-full h-[300px] max-w-full  mt-3  z-30 "
         >
-          <img src={image_3} className="md:bg-cover h-[330px] xl:h-[500px]  xl:w-[1100px] 2xl:w-[1400px] 2xl:h-[600px] absolute right-0 group-hover:grayscale" />
+          <img src={image_3} className="md:bg-cover h-[330px] md:w-[950px] md:h-[400px] xl:h-[500px]  xl:w-[1100px] 2xl:w-[1400px] 2xl:h-[600px] absolute right-0 group-hover:grayscale" />
           <div className="relative cursor-pointer  ">
-            <div className="bg-slate-100 absolute p-2 md:p-4 text-center h-[280px] w-[280px] xl:h-[480px] xl:w-[480px]  2xl:h-[600px] 2xl:w-[600px] z-30 lg:right-[10%] right-[40px] top-[180px] lg:top-64 ">
-              <div className="bg-slate-100 group-hover:border-4 transition-all duration-500 group-hover:border-black h-[270px] xl:h-[450px] xl:w-[450px] 2xl:w-[570px] 2xl:h-[570px]">
+            <div className="bg-slate-100 absolute p-2 md:p-4 text-center h-[250px] w-[250px] md:h-[350px] md:w-[350px] xl:h-[480px] xl:w-[480px]  2xl:h-[600px] 2xl:w-[600px] z-30 md:top-[20px] lg:right-[10%] right-[20px] top-[210px]  lg:top-64 ">
+              <div className="bg-slate-100 group-hover:border-4 transition-all duration-500 group-hover:border-black h-[240px] md:h-[330px] xl:h-[450px] xl:w-[450px] 2xl:w-[570px] 2xl:h-[570px]">
                 <div className=" flex flex-col gap-8 xl:gap-12 items-center">
-                  <h1 className="mt-6 text-4xl 2xl:text-9xl xl:text-7xl font-Sigmar">AK</h1>
+                  <h1 className="mt-6 text-4xl md:text-6xl 2xl:text-9xl xl:text-7xl font-Sigmar">AK</h1>
                   <div className="flex flex-col gap-4 xl:gap-10 2xl:gap-14">
-                    <h1 className="text-2xl 2xl:text-7xl xl:text-6xl font-tradego">$126,000,000</h1>
+                    <h1 className="text-2xl 2xl:text-7xl  xl:text-6xl md:text-5xl font-tradego">$126,000,000</h1>
                     <p className="font-bold 2xl:text-2xl xl:text-lg">9505 GLOAMING DR</p>
                     <div className="flex flex-col justify-center gap-3 md:gap-6 items-center">
                           <div className="flex 2xl:text-2xl xl:text-lg text-sm  justify-center gap-5 ">
@@ -91,7 +91,7 @@ const MiddleImage1 = () => {
              backgroundSize: "fit",
              y: backgroundY,
            }}
-          className=" h-[470px] xl:h-[850px] 2xl:h-[950px] w-full bg-fixed absolute top-[110px] xl:top-[150px] z-10 2xl:top-[150px] "
+          className=" h-[470px] md:h-[750px] xl:h-[850px] 2xl:h-[950px] w-full bg-fixed absolute top-[110px] md:top-[140px] xl:top-[150px] z-10 2xl:top-[150px] "
         ></motion.div>
 
         {/* 3rd image */}
@@ -101,7 +101,7 @@ const MiddleImage1 = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 1 }}
-          className="lg:h-[450px] h-[300px] group w-full  mt-3   z-30 top-[460px] xl:top-[730px] absolute 2xl:top-[850px]  lg:left-0"
+          className="lg:h-[450px] h-[300px] group w-full  mt-3   z-30 top-[460px] md:top-[590px] xl:top-[730px] absolute 2xl:top-[850px]  lg:left-0"
         >
           <motion.img
             variants={fadeIn("up", 0.3)}
@@ -112,8 +112,8 @@ const MiddleImage1 = () => {
             className="bg-cover h-[300px] w-full  2xl:h-[650px] xl:w-[1150px] xl:h-[500px]  2xl:w-[1380px] group-hover:grayscale"
           />
           <div className="relative cursor-pointer ">
-            <div className="bg-slate-900 absolute p-2 md:p-4 text-center h-[280px] w-[280px] 2xl:h-[600px] 2xl:w-[600px] xl:h-[480px] xl:w-[480px] z-40 xl:left-[120px]  2xl:left-[105px] top-[-166px] left-[40px] 2xl:top-[-350px] xl:top-[-270px] ">
-              <div className="bg-slate-900 text-white group-hover:border-2  md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[260px] w-[265px] xl:w-[450px] xl:h-[450px] 2xl:w-[570px] 2xl:h-[570px]">
+            <div className="bg-slate-900 absolute p-2 md:p-4 text-center h-[250px] w-[250px] 2xl:h-[600px] 2xl:w-[600px] xl:h-[480px] xl:w-[480px] z-40 xl:left-[120px]  2xl:left-[105px] top-[-140px]  left-[20px] 2xl:top-[-350px] xl:top-[-270px] ">
+              <div className="bg-slate-900 text-white group-hover:border-2  md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[236px] w-[235px] xl:w-[450px] xl:h-[450px] 2xl:w-[570px] 2xl:h-[570px]">
                 <div className=" flex flex-col gap-7 2xl:gap-12 items-center">
                   <h1 className="mt-6 text-3xl xl:text-7xl 2xl:text-8xl font-tradego">AK</h1>
                   <div className="flex flex-col gap-4 xl:gap-10 2xl:gap-14">
@@ -154,14 +154,14 @@ const MiddleImage1 = () => {
            whileInView={"show"}
            viewport={{ once: true, amount: 0.7 }}
           className="relative cursor-pointer ">
-            <div className="bg-slate-100 absolute p-2 md:p-4 text-center h-[280px] w-[280px] xl:w-[500px] xl:h-[500px] 2xl:h-[600px] 2xl:w-[600px] z-30  xl:right-[130px] 2xl:right-[130px] right-[60px] xl:top-[-270px] top-[-155px] 2xl:top-[-240px] ">
-              <div className="bg-slate-100 group-hover:border-4 transition-all duration-500 group-hover:border-black h-[270px] xl:h-[450px] xl:w-[450px] 2xl:h-[570px] 2xl:w-[570px]">
-                <div className=" flex flex-col gap-12 items-center">
-                  <h1 className="mt-6 text-3xl xl:text-7xl 2xl:text-9xl font-Sigmar">AK</h1>
+            <div className="bg-slate-100 absolute p-2 md:p-4 text-center h-[250px] w-[250px] xl:w-[500px] xl:h-[500px] 2xl:h-[600px] 2xl:w-[600px] z-30  xl:right-[130px] 2xl:right-[130px] right-[20px] xl:top-[-270px] top-[-120px] 2xl:top-[-240px] ">
+              <div className="bg-slate-100 group-hover:border-4 transition-all duration-500 group-hover:border-black h-[240px] xl:h-[450px] xl:w-[450px] 2xl:h-[570px] 2xl:w-[570px]">
+                <div className=" flex flex-col gap-7 md:gap-12 items-center">
+                  <h1 className="mt-6 text-4xl xl:text-7xl 2xl:text-9xl font-Sigmar">AK</h1>
                   <div className="flex flex-col gap-4 2xl:gap-14 xl:gap-10">
                     <h1 className="2xl:text-8xl xl:text-6xl text-3xl font-serif">$77,000,000</h1>
                     <p className="font-bold  text-sm xl:text-lg 2xl:text-2xl">1420 DAVIES DR</p>
-                    <div className="flex flex-col justify-center gap-6 items-center">
+                    <div className="flex flex-col justify-center  gap-2 md:gap-6 items-center">
                           <div className="flex 2xl:text-2xl text-sm xl:text-lg justify-center gap-5">
                             <p>{">"}</p>
                             <p>DETAILS</p>
@@ -189,20 +189,20 @@ const MiddleImage1 = () => {
             className="bg-cover h-[295px] xl:h-[500px] xl:w-[1140px] 2xl:h-[600px] 2xl:w-[1400px] group-hover:grayscale"
           />
           <div className="relative cursor-pointer ">
-            <div className="bg-slate-900 absolute p-2 md:p-4 text-center  2xl:h-[600px] h-[270px] w-[280px] xl:h-[480px] xl:w-[480px] 2xl:w-[600px] top-[-110px] z-30 left-[50px] 2xl:left-[130px] xl:left-[130px] xl:top-[-290px] 2xl:top-[-290px] ">
-              <div className="bg-slate-900 text-white  group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[255px] xl:h-[450px] xl:w-[450px] 2xl:h-[570px] 2xl:w-[570px]">
+            <div className="bg-slate-900 absolute p-2 md:p-4 text-center  2xl:h-[600px] h-[250px] w-[250px] xl:h-[480px] xl:w-[480px] 2xl:w-[600px] top-[-90px] z-30 left-[20px] 2xl:left-[130px] xl:left-[130px] xl:top-[-290px] 2xl:top-[-290px] ">
+              <div className="bg-slate-900 text-white  group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[240px] xl:h-[450px] xl:w-[450px] 2xl:h-[570px] 2xl:w-[570px]">
                 <div className=" flex flex-col gap-8 md:gap-12 items-center">
                   <h1 className="mt-6 2xl:text-9xl xl:text-7xl text-3xl font-Sigmar">AK</h1>
                   <div className="flex flex-col gap-4 md:gap-8">
                     <h1 className="2xl:text-8xl xl:text-6xl text-3xl font-Sigmar">$70,000,000</h1>
                     <p className="font-bold  text-sm xl:text-lg 2xl:text-2xl">120 MONTECITO RANCH LN</p>
-                    <div className="flex flex-col justify-center gap-6 items-center">
+                    <div className="flex flex-col justify-center gap-3 md:gap-6 items-center">
                           <div className="flex xl:text-lg 2xl:text-2xl text-sm  justify-center gap-5">
                             <p>{">"}</p>
                             <p>DETAILS</p>
                           </div>
-                          <div className="flex mr-32 justify-start items-start " >
-                            <hr className="border-2 border-white w-[60px]" ></hr>
+                          <div className="flex mr-20 md:mr-32 justify-start items-start " >
+                            <hr className="border-2 border-white w-[40px] md:w-[60px]" ></hr>
                           </div>
                         </div>
                   </div>
@@ -232,15 +232,15 @@ const MiddleImage1 = () => {
              initial="hidden"
              whileInView={"show"}
              viewport={{ once: true, amount: 0.7 }}
-              className="bg-slate-100 absolute p-4 text-center  2xl:h-[600px] h-[280px] xl:w-[480px] right-[60px] xl:h-[480px] 2xl:w-[600px] w-[280px] 2xl:right-[130px] xl:right-[130px] z-30 md:right-5 top-[260px] xl:top-[260px] 2xl:top-[305px] ">
-              <div className="bg-slate-100 group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-black h-[250px] xl:h-[450px] 2xl:h-[570px]">
+              className="bg-slate-100 absolute p-4 text-center  2xl:h-[600px] h-[250px] w-[250px] xl:w-[480px] right-[20px] xl:h-[480px] 2xl:w-[600px]  2xl:right-[130px] xl:right-[130px] z-30 md:right-5 top-[240px] xl:top-[260px] 2xl:top-[305px] ">
+              <div className="bg-slate-100 group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-black h-[220px]  xl:h-[450px]  2xl:h-[570px]">
                 <div className=" flex flex-col gap-7 md:gap-12 items-center">
                   <h1 className="mt-6 2xl:text-9xl xl:text-7xl text-3xl font-tradego">AK</h1>
                   <div className="flex flex-col gap-4 2xl:gap-14 xl:gap-10">
                     <h1 className="2xl:text-8xl text-2xl xl:text-7xl font-serif">$63,000,000</h1>
                     <p className="font-bold text-sm xl:text-lg 2xl:text-2xl">9214 NIGHTINGALE DR</p>
-                    <div className="flex flex-col justify-center gap-6 items-center">
-                          <div className="flex 2xl:text-2xl xl:text-lg text-sm  justify-center gap-5">
+                    <div className="flex flex-col justify-center gap-3 md:gap-6 items-center">
+                          <div className="flex 2xl:text-2xl xl:text-lg text-sm  justify-center gap-3 md:gap-5">
                             <p>{">"}</p>
                             <p>DETAILS</p>
                           </div>
@@ -294,14 +294,14 @@ const MiddleImage1 = () => {
                whileInView={"show"}
                viewport={{ once: true, amount: 0.7 }}
                 className="relative cursor-pointer ">
-                <div className="bg-slate-900 absolute p-2 md:p-4 text-center h-[280px] w-[280px] left-[60px] xl:h-[480px] xl:w-[480px] 2xl:h-[600px] 2xl:w-[600px] z-30 2xl:left-[130px] top-[-150px] xl:top-[-250px] xl:left-[130px] 2xl:top-[-345px] ">
-                  <div className="bg-slate-900 text-white group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[260px] xl:h-[450px] 2xl:h-[570px]">
-                    <div className=" flex flex-col gap-12 items-center">
+                <div className="bg-slate-900 absolute p-2 md:p-4 text-center h-[250px] w-[250px] left-[20px] xl:h-[480px] xl:w-[480px] 2xl:h-[600px] 2xl:w-[600px] z-30 2xl:left-[130px] top-[-128px] xl:top-[-250px] xl:left-[130px] 2xl:top-[-345px] ">
+                  <div className="bg-slate-900 text-white group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[240px] xl:h-[450px] 2xl:h-[570px]">
+                    <div className=" flex flex-col gap-5 md:gap-12 items-center">
                       <h1 className="mt-6 2xl:text-9xl text-3xl xl:text-8xl font-tradego">AK</h1>
                       <div className="flex flex-col gap-4 xl:gap-10 2xl:gap-14">
                         <h1 className="2xl:text-8xl xl:text-7xl text-2xl font-tradego">$62,000,000</h1>
                         <p className="font-bold text-sm xl:text-lg 2xl:text-2xl">942 N ALPINE DR</p>
-                        <div className="flex flex-col justify-center gap-6 items-center">
+                        <div className="flex flex-col justify-center gap-3 md:gap-6 items-center">
                           <div className="flex 2xl:text-2xl xl:text-lg text-sm  justify-center gap-5">
                             <p>{">"}</p>
                             <p>DETAILS</p>
@@ -318,7 +318,7 @@ const MiddleImage1 = () => {
             </motion.div>
 
             <motion.div className="2xl:h-auto xl:h-auto absolute h-[350px] w-full top-[430px] xl:top-[740px] 2xl:top-[885px] z-40">
-              <img src={image_9} className="2xl:h-[700px] 2xl:w-full xl:h-[600px] xl:w-full h-[300px]" />
+              <img src={image_9} className="2xl:h-[700px] image-full 2xl:w-full xl:h-[600px] xl:w-full h-[300px] max-w-full" />
             </motion.div>
           </motion.div>
           
