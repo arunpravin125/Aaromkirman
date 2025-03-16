@@ -145,7 +145,7 @@ const App = () => {
 
 <About/>
 {/* finished responsive  2*/}
-{/* <AdStarted/> */}
+<AdStarted/>
 {/* finished responsive 3*/}
 {/* <AdSoldList/> */}
 {/* finished responsive 4*/}
