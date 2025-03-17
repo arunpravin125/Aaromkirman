@@ -157,7 +157,7 @@ const App = () => {
 
 <FeaturedIn8/>
 {/* finished responsive 7 */}
-{/* <Aaron10/> */}
+<Aaron10/>
 
 </ParallaxProvider>
 
