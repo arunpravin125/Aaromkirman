@@ -157,7 +157,7 @@ const AdStarted = () => {
             </div>
            
         </div>
-        <div className="absolute md:w-[500px] bg-red-300 xl:w-[600px] 2xl:w-[800px]  flex flex-col gap-2 md:gap-4 xl:gap-14 2xl:gap-20 top-[400px] left-[10px] w-full md:left-[520px] xl:left-[660px] 2xl:left-[700px] md:top-10 " >
+        <div className="absolute md:w-[500px]  xl:w-[600px] 2xl:w-[800px]  flex flex-col gap-2 md:gap-4 xl:gap-14 2xl:gap-20 top-[400px] left-[10px] w-full md:left-[520px] xl:left-[660px] 2xl:left-[700px] md:top-10 " >
             <motion.div
               variants={fadeIn("left",0.2)}
               initial="hidden"

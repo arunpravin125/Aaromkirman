@@ -189,7 +189,7 @@ const MiddleImage1 = () => {
             className="bg-cover h-[295px] md:h-[400px] md:w-[1000px] xl:h-[500px] xl:w-[1140px] 2xl:h-[600px] 2xl:w-[1400px] group-hover:grayscale"
           />
           <div className="relative cursor-pointer ">
-            <div className="bg-slate-900 absolute p-2 md:p-4 text-center md:h-[300px] md:w-[300px] 2xl:h-[600px] h-[250px] w-[250px] xl:h-[480px] xl:w-[480px] 2xl:w-[600px] top-[-90px] z-30 left-[20px] md:left-[70px] md:top-[-150px] 2xl:left-[130px] xl:left-[130px] xl:top-[-290px] 2xl:top-[-290px] ">
+            <div className="bg-slate-900 absolute p-2 md:p-4 text-center md:h-[300px] md:w-[300px] 2xl:h-[600px] h-[255px] w-[250px] xl:h-[480px] xl:w-[480px] 2xl:w-[600px] top-[-95px] z-30 left-[20px] md:left-[70px] md:top-[-150px] 2xl:left-[130px] xl:left-[130px] xl:top-[-290px] 2xl:top-[-290px] ">
               <div className="bg-slate-900 text-white  group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[240px] md:h-[270px] md:w-[270px] xl:h-[450px] xl:w-[450px] 2xl:h-[570px] 2xl:w-[570px]">
                 <div className=" flex flex-col gap-8 md:gap-12 items-center">
                   <h1 className="mt-6 2xl:text-9xl xl:text-7xl text-3xl font-Sigmar">AK</h1>
@@ -213,7 +213,7 @@ const MiddleImage1 = () => {
         </motion.div>
       </div>
       {/* finsh part two */}
-      <div className=" flex flex-col h-[300px] md:h-[740px] bg-blue-400  xl:h-[1100px] 2xl:h-[1970px] w-full relative">
+      <div className=" flex flex-col h-[300px] md:h-[740px]   xl:h-[1100px] 2xl:h-[1970px] w-full relative">
         {/* 1st image */}
         <div className="md:h-[450px] group 2xl:w-[1400px] w-full  mt-3 top-[-195px] md:top-[240px] xl:top-[410px] 2xl:top-[1110px] absolute z-30 xl:right-0 2xl:right-0">
           <img
@@ -234,8 +234,8 @@ const MiddleImage1 = () => {
              viewport={{ once: true, amount: 0.7 }}
               className="bg-slate-100 absolute p-4 text-center md:h-[300px] md:w-[300px] 2xl:h-[600px] h-[250px] w-[250px] xl:w-[480px] right-[20px] xl:h-[480px] 2xl:w-[600px]  2xl:right-[130px] xl:right-[130px] z-30 md:top-[190px] md:right-[70px] top-[240px] xl:top-[220px] 2xl:top-[305px] ">
               <div className="bg-slate-100 group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-black h-[220px] md:h-[270px] xl:h-[450px]  2xl:h-[570px]">
-                <div className=" flex flex-col gap-7  xl:gap-12 items-center">
-                  <h1 className="mt-6 2xl:text-9xl xl:text-7xl md:text-5xl text-3xl font-tradego">AK</h1>
+                <div className=" flex flex-col gap-5  xl:gap-12 items-center">
+                  <h1 className="mt-6 2xl:text-9xl xl:text-7xl md:text-5xl text-4xl font-tradego">AK</h1>
                   <div className="flex flex-col gap-4 2xl:gap-14 xl:gap-10">
                     <h1 className="2xl:text-8xl text-2xl xl:text-7xl font-serif">$63,000,000</h1>
                     <p className="font-bold text-sm xl:text-lg 2xl:text-2xl">9214 NIGHTINGALE DR</p>
@@ -297,7 +297,7 @@ const MiddleImage1 = () => {
                 <div className="bg-slate-900 absolute p-2 md:p-4 text-center h-[250px] w-[250px] md:h-[300px] md:w-[300px] left-[20px] xl:h-[480px] xl:w-[480px] 2xl:h-[600px] 2xl:w-[600px] z-30 md:left-[60px] 2xl:left-[130px] top-[-128px] md:top-[-165px] xl:top-[-250px] xl:left-[130px] 2xl:top-[-345px] ">
                   <div className="bg-slate-900 text-white group-hover:border-2 md:group-hover:border-4 transition-all duration-500 group-hover:border-white h-[240px] md:h-[270px] xl:h-[450px] 2xl:h-[570px]">
                     <div className=" flex flex-col gap-5  xl:gap-12 items-center">
-                      <h1 className="mt-6 2xl:text-9xl md:text-4xl text-3xl xl:text-8xl font-tradego">AK</h1>
+                      <h1 className="mt-6 2xl:text-9xl md:text-4xl text-4xl xl:text-8xl font-tradego">AK</h1>
                       <div className="flex flex-col gap-4 xl:gap-10 2xl:gap-14">
                         <h1 className="2xl:text-8xl md:text-4xl xl:text-7xl text-2xl font-tradego">$62,000,000</h1>
                         <p className="font-bold text-sm xl:text-lg 2xl:text-2xl">942 N ALPINE DR</p>

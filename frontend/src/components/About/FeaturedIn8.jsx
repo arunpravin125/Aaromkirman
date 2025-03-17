@@ -43,24 +43,24 @@ const FeaturedIn8 = () => {
             backgroundSize: "cover",
             y: backgroundY,
           }}
-          className="w-full  z-20 md:h-[1100px] flex flex-col justify-center items-center md:opacity-100 h-[1050px] bg-fixed object-cover relative"
+          className="w-full  z-20 md:h-[1100px] bg-orange-200 flex flex-col justify-center items-center md:opacity-100 h-[1050px] bg-fixed object-cover relative"
         >
-          <div className="h-[570px]  w-[500px] md:w-[1250px] z-20 md:ml-2 mr-2 bg-white absolute  flex flex-col justify-evenly  items-center">
+          <div className="h-[570px]  w-[500px] md:w-[1250px] 2xl:h-[800px] 2xl:w-full z-20 md:ml-2 mr-2 bg-white absolute  flex flex-col justify-evenly  items-center">
             <div className="relative">
-              <div className="md:flex md:flex-row hidden  items-center justify-between p-1 md:gap-16 gap-2 md:mt-4 md:ml-10 md:p-4">
+              <div className="md:flex md:flex-row hidden  items-center justify-between p-1 md:gap-16 gap-2 2xl:gap-1 md:mt-4 md:ml-10 md:p-4 2xl:p-1">
                 {/* 1st */}
                 <div className="flex flex-col  relative gap-3  transition-all duration-500 items-start justify-start">
-                  <div className=" flex group items-center justify-center relative md:h-[500px] md:w-[500px] h-[390px] w-[396px] ">
+                  <div className=" flex group items-center justify-center relative md:h-[500px] md:w-[500px] bg-blue-500  h-[390px] w-[396px] 2xl:w-[800px] 2xl:h-[700px] ">
                     <img
                       src={imageAgent}
-                      className="absolute group-hover:opacity-35  transition-all duration-300 md:h-[370px] h-[300px] w-[400px] md:w-[500px] image-full"
+                      className="absolute group-hover:opacity-35  transition-all duration-300 md:h-[370px] h-[300px] w-[400px] md:w-[500px] 2xl:w-[700px] 2xl:h-[600px] image-full"
                     />
                     <img
                       src={realAgent}
                       className="absolute opacity-0  transition-all duration-300 group-hover:opacity-95 md:left-[120px] left-[70px] md:size-72 "
                     />
                   </div>
-                  <div className="absolute flex flex-col gap-1 top-[355px] md:top-[450px]">
+                  <div className="absolute flex flex-col gap-1 top-[355px] 2xl:top-[650px] md:top-[450px]">
                     <p className="font-tradego font-semibold">
                       {" "}
                       $40M ENCINO MANSE SETS NEW LISTING RECORD
@@ -78,10 +78,10 @@ const FeaturedIn8 = () => {
                 {/* 2nd */}
 
                 <div className="flex flex-col  relative  bg-white gap-3 transition-all duration-500 items-start justify-start">
-                  <div className=" flex group items-center justify-center ml-24 md:ml-0  relative md:h-[500px] md:w-[500px] h-[490px] w-[500px]">
+                  <div className=" flex group items-center justify-center ml-24 md:ml-0  relative md:h-[500px] md:w-[500px] 2xl:w-[800px] 2xl:h-[700px] h-[490px] w-[500px]">
                     <img
                       src={imageAgent2}
-                      className="absolute  group-hover:opacity-35  transition-all duration-300 md:h-[370px] h-[355px] w-[400px] md:w-[500px] image-full"
+                      className="absolute  group-hover:opacity-35  transition-all duration-300 md:h-[370px] h-[355px] w-[400px] md:w-[500px] 2xl:w-[700px] 2xl:h-[600px]  image-full"
                     />
                     <img
                       src={lossAngeles}
@@ -105,7 +105,7 @@ const FeaturedIn8 = () => {
                 </div>
               </div>
               {/* phone */}
-              <div className="flex flex-col md:hidden items-center w-screen justify-center px-4">
+              <div className="flex flex-col md:hidden  items-center w-screen justify-center px-4">
                 {/* 1st Item */}
                 <div className="relative flex flex-col gap-3 transition-all duration-500 justify-center items-center w-screen md:w-full">
                   <div className="group relative flex items-center justify-center w-screen">

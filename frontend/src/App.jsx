@@ -147,15 +147,15 @@ const App = () => {
 {/* finished responsive  2*/}
 <AdStarted/>
 {/* finished responsive 3*/}
-{/* <AdSoldList/> */}
+<AdSoldList/>
 {/* finished responsive 4*/}
-{/* <EstateDynamics/> */}
+<EstateDynamics/>
 {/* finished responsive 5*/}
 
-{/* <ListingImpossible/> */}
+<ListingImpossible/>
 {/* finished responsive 6*/}
-{/* <ParallaxGrid/>  */}
-{/* <FeaturedIn8/> */}
+
+<FeaturedIn8/>
 {/* finished responsive 7 */}
 {/* <Aaron10/> */}
 
