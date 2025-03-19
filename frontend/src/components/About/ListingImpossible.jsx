@@ -45,7 +45,7 @@ const ListingImpossible = () => {
               <IoPlayCircleSharp className="md:size-24 size-12  stroke-slate-100" />
             </div>
             <div className="flex felx-col justify-center items-center" >
-            <div className="absolute md:top-[470px] top-[210px] lg:top-[450px] xl:top-[500px] 2xl:top-[530px] w-full  flex md:w-full justify-center items-center ">
+            <div className="absolute md:top-[470px] top-[210px] lg:top-[450px] xl:top-[500px] 2xl:top-[530px] w-[100%]  flex md:w-full justify-center items-center ">
               <hr className="md:border-[6px]  border-[3px] lg:top-[38px] xl:top-[45px] xl:w-[240px] 2xl:top-[52px] 2xl:w-[19%] border-white absolute top-[13px] w-[15%] left-0 md:left-0 md:top-[10px] md:w-[205px]" />
               <h1 className="text-white text-[250%] top-[10px]  md:text-[110px] xl:text-[130px] 2xl:text-[155px] font-bigshoulders font-bold ">
                 LISTING IMPOSSIBLE
